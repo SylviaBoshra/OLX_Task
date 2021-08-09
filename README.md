@@ -7,6 +7,7 @@
 * [Libraries and Frameworks](#lib)
 * [Programming Language](#lang)
 * [Code Details](#code)
+* [Report](#Report)
 * [Contact](#contact)
 
 <a name="info"></a>
@@ -43,7 +44,6 @@ Function Name | Description   |
 | verifymap  | Verifying that the property is displayed on the map and the color of the pin changes (upon hover) and Verify that the details shown in the map popup are the same as the ones shown in the search results.  |
 | Closedriver  | Close the browser  |
 
-<br/>
    
 ### TestDate.java Functions
 | Function Name | Description   |
@@ -55,6 +55,11 @@ Function Name | Description   |
 | getmonthyear  | Extract the month and year from the date  |
 |  clickGivenDay | Click on the required date from the date picker  |
 | DatePicker  | Looping on the date picker to search for the day that the customer will check in and check out  |
+
+
+<a name="Report"></a>
+## Report
+Report is generated in this path: **"OLX_Task/test-output/emailable-report.html"**
 
 
 <a name="contact"></a>
