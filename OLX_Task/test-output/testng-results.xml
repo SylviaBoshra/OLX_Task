@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="4" passed="4" failed="0" skipped="0">
+  <reporter-output>
+    <line>
+      <![CDATA[Airbnb Website is opened successfully]]>
+    </line>
+    <line>
+      <![CDATA[Location is verified in the filters area]]>
+    </line>
+    <line>
+      <![CDATA[Checkin and Checkout dates are verified in the filters area]]>
+    </line>
+    <line>
+      <![CDATA[Guests count are verified in the filters area]]>
+    </line>
+    <line>
+      <![CDATA[Data in the header are verified successfully]]>
+    </line>
+    <line>
+      <![CDATA[the properties displayed on the first page can accommodate at least the selected number of guests.]]>
+    </line>
+    <line>
+      <![CDATA[he properties displayed on the first page have at least the number of selected bedrooms.]]>
+    </line>
+    <line>
+      <![CDATA[The first property has a pool]]>
+    </line>
+    <line>
+      <![CDATA[the property is displayed on the map and the color of the pin changes (upon hover)]]>
+    </line>
+    <line>
+      <![CDATA[A pop up is displayed with the property data]]>
+    </line>
+    <line>
+      <![CDATA[the details shown in the map popup are the same as the ones shown in the search results]]>
+    </line>
+  </reporter-output>
+  <suite started-at="2021-08-09T14:18:02 EET" name="Default suite" finished-at="2021-08-09T14:18:41 EET" duration-ms="39652">
+    <groups>
+    </groups>
+    <test started-at="2021-08-09T14:18:02 EET" name="Default test" finished-at="2021-08-09T14:18:41 EET" duration-ms="39652">
+      <class name="newpackage.Myclass">
+        <test-method is-config="true" signature="OpenWebsite()[pri:0, instance:newpackage.Myclass@149e0f5d]" started-at="2021-08-09T14:18:02 EET" name="OpenWebsite" finished-at="2021-08-09T14:18:06 EET" duration-ms="4591" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Airbnb Website is opened successfully]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- OpenWebsite -->
+        <test-method signature="verifysearchdata()[pri:1, instance:newpackage.Myclass@149e0f5d]" started-at="2021-08-09T14:18:06 EET" name="verifysearchdata" finished-at="2021-08-09T14:18:20 EET" duration-ms="13654" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Location is verified in the filters area]]>
+            </line>
+            <line>
+              <![CDATA[Checkin and Checkout dates are verified in the filters area]]>
+            </line>
+            <line>
+              <![CDATA[Guests count are verified in the filters area]]>
+            </line>
+            <line>
+              <![CDATA[Data in the header are verified successfully]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- verifysearchdata -->
+        <test-method signature="verifysearchresult()[pri:2, instance:newpackage.Myclass@149e0f5d]" started-at="2021-08-09T14:18:20 EET" name="verifysearchresult" finished-at="2021-08-09T14:18:21 EET" duration-ms="878" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[the properties displayed on the first page can accommodate at least the selected number of guests.]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- verifysearchresult -->
+        <test-method signature="verifymoredetails()[pri:3, instance:newpackage.Myclass@149e0f5d]" started-at="2021-08-09T14:18:21 EET" name="verifymoredetails" finished-at="2021-08-09T14:18:37 EET" duration-ms="16691" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[he properties displayed on the first page have at least the number of selected bedrooms.]]>
+            </line>
+            <line>
+              <![CDATA[The first property has a pool]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- verifymoredetails -->
+        <test-method signature="verifymap()[pri:4, instance:newpackage.Myclass@149e0f5d]" started-at="2021-08-09T14:18:37 EET" name="verifymap" finished-at="2021-08-09T14:18:40 EET" duration-ms="2876" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[the property is displayed on the map and the color of the pin changes (upon hover)]]>
+            </line>
+            <line>
+              <![CDATA[A pop up is displayed with the property data]]>
+            </line>
+            <line>
+              <![CDATA[the details shown in the map popup are the same as the ones shown in the search results]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- verifymap -->
+        <test-method is-config="true" signature="Closedriver()[pri:0, instance:newpackage.Myclass@149e0f5d]" started-at="2021-08-09T14:18:40 EET" name="Closedriver" finished-at="2021-08-09T14:18:41 EET" duration-ms="888" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Closedriver -->
+      </class> <!-- newpackage.Myclass -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
